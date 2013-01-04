@@ -25,8 +25,8 @@
 			<link rel="stylesheet" media="screen" href="{$workspace}/css/bootstrap.min.css" />
 			<link rel="stylesheet" media="screen" href="{$workspace}/css/bootstrap-responsive.min.css" />
 			
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-			<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+			<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 			<script src="{$workspace}/js/bootstrap.min.js"></script>
 			
 			<xsl:comment><![CDATA[[if lt IE 9]><script type="text/javascript" src="]]><xsl:value-of select="$root"/><![CDATA[/workspace/js/html5shiv.min.js"></script><![endif]]]></xsl:comment>
