@@ -29,6 +29,10 @@
 			<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
 			<script src="{$workspace}/js/bootstrap.min.js"></script>
 			
+			<xsl:comment>[if !(IE)]<![CDATA[><!]]></xsl:comment>
+				<!-- link to any non-IE stylesheets/JS -->
+			<xsl:comment><![CDATA[<!]]>[endif]</xsl:comment>	
+			
 			<xsl:comment><![CDATA[[if lt IE 9]><script type="text/javascript" src="]]><xsl:value-of select="$root"/><![CDATA[/workspace/js/html5shiv.min.js"></script><![endif]]]></xsl:comment>
 			<xsl:comment><![CDATA[[if (gte IE 6)&(lte IE 8)]><script type="text/javascript" src="]]><xsl:value-of select="$root"/><![CDATA[/workspace/js/selectivizr.min.js"></script><![endif]]]></xsl:comment>
 		</head>
