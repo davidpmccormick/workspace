@@ -11,7 +11,10 @@
 		"requirejs": "latest",
 		"sass-bootstrap": "latest",
 		"modernizr": "~2.6.2",
-		"selectivizr": "latest"
-		
+		"selectivizr": "latest",
+		"jquery-cycle2": "latest",
+		"isotope": "latest",
+		"jquery.sticky": "latest",
+		"jquery.scrollTo": "latest"
 	}
 }
