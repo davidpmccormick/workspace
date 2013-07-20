@@ -1,0 +1,2 @@
+//::LICENSE:://
+(function(){var e=function(e){return crossroads};typeof define=="function"&&define.amd?define(["signals"],e):typeof module!="undefined"&&module.exports?module.exports=e(require("signals")):window.crossroads=e(window.signals)})();

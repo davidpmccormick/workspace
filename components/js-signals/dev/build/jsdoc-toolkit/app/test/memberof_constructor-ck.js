@@ -1,0 +1,1 @@
+/** @constructor */function Circle(){}Circle.prototype.Tangent=function(){};Circle.prototype.Tangent.prototype.getDiameter=function(){};

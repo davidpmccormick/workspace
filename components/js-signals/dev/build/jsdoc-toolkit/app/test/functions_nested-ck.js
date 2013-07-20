@@ -1,0 +1,1 @@
+/** @constructor */function Zop(){}Foo=function(e){function t(){}Foo.prototype.methodOne=function(e){alert(e)};Foo.prototype.methodTwo=function(e){alert(e)};Bar=function(e){alert(e)};Zop.prototype.zap=function(e){alert(e)}};

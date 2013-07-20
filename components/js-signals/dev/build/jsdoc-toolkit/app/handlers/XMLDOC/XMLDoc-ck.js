@@ -1,0 +1,1 @@
+LOG.inform("XMLDOC.symbolize loaded");XMLDOC.symbolize=function(e,t){LOG.inform("Symbolizing file '"+e+"'");var n=new XMLDOC.DomReader(XMLDOC.Parser.parse(t));return n.getSymbols(e)};

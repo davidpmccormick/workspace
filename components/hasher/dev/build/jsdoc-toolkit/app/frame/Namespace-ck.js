@@ -1,0 +1,1 @@
+function Namespace(e,t){var n=e.split(".");for(var r=_global_,i=0,s=n.length;i<s;i++)r=r[n[i]]=r[n[i]]||{};t&&t()}_global_=this;

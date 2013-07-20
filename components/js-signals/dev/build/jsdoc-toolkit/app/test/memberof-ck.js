@@ -1,0 +1,1 @@
+/** @constructor */pack=function(){function e(){}this.init=function(){}};pack.build=function(e){};pack.install=function(){};pack.install.overwrite=function(){};clean=function(){};install=function(){};

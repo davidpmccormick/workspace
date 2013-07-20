@@ -1,0 +1,4 @@
+/**
+ * @namespace
+ * @deprecated Use {@link FilePath} instead.
+ */JSDOC.Util={};JSDOC.Util.fileName=function(e){LOG.warn("JSDOC.Util.fileName is deprecated. Use FilePath.fileName instead.");var t=Math.max(e.lastIndexOf("/")+1,e.lastIndexOf("\\")+1,0);return e.substring(t)};JSDOC.Util.fileExtension=function(e){LOG.warn("JSDOC.Util.fileExtension is deprecated. Use FilePath.fileExtension instead.");return e.split(".").pop().toLowerCase()};JSDOC.Util.dir=function(e){LOG.warn("JSDOC.Util.dir is deprecated. Use FilePath.dir instead.");var t=Math.max(e.lastIndexOf("/")+1,e.lastIndexOf("\\")+1,0);return e.substring(0,t-1)};

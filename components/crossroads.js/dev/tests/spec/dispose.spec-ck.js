@@ -1,0 +1,2 @@
+/*jshint onevar:false *///for node
+var crossroads=crossroads||require("../../../dist/crossroads");describe("Route.dispose()",function(){afterEach(function(){crossroads.resetState();crossroads.removeAllRoutes()});it("should dispose route",function(){var e=0,t=crossroads.addRoute("{foo}/{bar}");t.matched.add(function(t,n){e++});crossroads.parse("foo/bar");t.dispose();crossroads.parse("dolor/amet");expect(e).toBe(1)})});

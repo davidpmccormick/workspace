@@ -1,0 +1,1 @@
+/** @constructor */function Foo(){var e=1;e=2;this.baz=1;baz=2;var t={tada:1}};
