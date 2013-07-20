@@ -1,1 +1,0 @@
-typeof JSDOC=="undefined"&&(JSDOC={});JSDOC.Token=function(e,t,n){this.data=e;this.type=t;this.name=n};JSDOC.Token.prototype.toString=function(){return"<"+this.type+' name="'+this.name+'">'+this.data+"</"+this.type+">"};JSDOC.Token.prototype.is=function(e){return this.name===e||this.type===e};

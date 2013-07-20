@@ -1,1 +1,0 @@
-/** @constructor */function Article(){}Article.prototype={getTitle:function(){}};Article.getTitle=function(){};

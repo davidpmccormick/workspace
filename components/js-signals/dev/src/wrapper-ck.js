@@ -1,2 +1,0 @@
-/*jslint onevar:true, undef:true, newcap:true, regexp:true, bitwise:true, maxerr:50, indent:4, white:false, nomen:false, plusplus:false *//*global define:false, require:false, exports:false, module:false, signals:false *///::LICENSE:://
-(function(e){typeof define=="function"&&define.amd?define(function(){return signals}):typeof module!="undefined"&&module.exports?module.exports=signals:e.signals=signals})(this);

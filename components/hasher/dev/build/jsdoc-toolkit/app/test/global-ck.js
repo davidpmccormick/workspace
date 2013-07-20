@@ -1,1 +1,0 @@
-/** ecks */function zop(){}var x=[1,2,4],y={foo:function(){}};bar=function(){};

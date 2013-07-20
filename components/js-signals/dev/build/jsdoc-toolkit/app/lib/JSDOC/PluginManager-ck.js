@@ -1,3 +1,0 @@
-/**
-	@namespace Holds functionality related to running plugins.
-*/JSDOC.PluginManager={};JSDOC.PluginManager.registerPlugin=function(e,t){defined(JSDOC.PluginManager.plugins)||(JSDOC.PluginManager.plugins={});JSDOC.PluginManager.plugins[e]=t};JSDOC.PluginManager.run=function(e,t){for(var n in JSDOC.PluginManager.plugins)defined(JSDOC.PluginManager.plugins[n][e])&&JSDOC.PluginManager.plugins[n][e](t)};

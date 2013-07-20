@@ -1,1 +1,0 @@
-/** @namespace */myProject=myProject||{};myProject.myModule=function(){var e="",t=function(){};return{myPublicMethod:function(){}}}();

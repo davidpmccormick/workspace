@@ -1,2 +1,0 @@
-/*jshint onevar:false *///for node
-var crossroads=crossroads||require("../../../dist/crossroads");describe("crossroads.toString() and route.toString()",function(){afterEach(function(){crossroads.resetState();crossroads.removeAllRoutes()});it("should help debugging",function(){var e=0,t=[],n=crossroads.addRoute("/{foo}_{bar}");n.matched.add(function(e,t){expect(null).toEqual("fail: not a trigger test")});expect(crossroads.toString()).toBe("[crossroads numRoutes:1]");expect(n.toString()).toBe('[Route pattern:"/{foo}_{bar}", numListeners:1]')})});

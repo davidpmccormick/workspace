@@ -1,3 +1,0 @@
-/**
-	@constructor
-*/JSDOC.TextStream=function(e){typeof e=="undefined"&&(e="");e=""+e;this.text=e;this.cursor=0};JSDOC.TextStream.prototype.look=function(e){typeof e=="undefined"&&(e=0);if(this.cursor+e<0||this.cursor+e>=this.text.length){var t=new String("");t.eof=!0;return t}return this.text.charAt(this.cursor+e)};JSDOC.TextStream.prototype.next=function(e){typeof e=="undefined"&&(e=1);if(e<1)return null;var t="";for(var n=0;n<e;n++){if(!(this.cursor+n<this.text.length)){var r=new String("");r.eof=!0;return r}t+=this.text.charAt(this.cursor+n)}this.cursor+=e;return t};

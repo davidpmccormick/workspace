@@ -6,7 +6,7 @@
 		<head>
 			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 			<meta charset="utf-8" />
-			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 			<meta name="title" content="{$page-title}" />
 			<meta name="description" content="" />
 			<meta name="tags" content="" />
@@ -15,7 +15,7 @@
 
 			<link rel="shortcut icon" href="/favicon.ico" />
 			<link rel="icon" type="images/png" href="{$workspace}/assets/images/favicon.png" />
-			<link rel="stylesheet" media="screen" href="{$workspace}/css/main" />
+			<link rel="stylesheet" media="screen" href="{$workspace}/css/main.css" />
 			
 			<xsl:comment>[if !(IE)]<![CDATA[><!]]></xsl:comment>
 				<!-- link to any non-IE stylesheets/JS -->
@@ -28,4 +28,3 @@
 	</xsl:template>
 
 </xsl:stylesheet>
-

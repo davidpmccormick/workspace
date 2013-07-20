@@ -1,1 +1,0 @@
-/** @namespace */var mxn={};(function(){var e=mxn.Map=function(){};e.prototype.doThings=function(){}})();
